@@ -7,7 +7,7 @@ title: Home
 
 Hi there, I'm Daniel, and here's a bit about me:
 
-- 👨‍💻 I have a passion for Machine Learning, and I'm always eager to explore its endless possibilities.
+- 👨‍💻 I have a passion for Machine Learning, and am always eager to explore a new possibility or tool.
 - 🌐 During my full-time work, I enjoy crafting APIs and creating websites, turning my ideas into digital reality.
 - 🏋️ I'm an advocate for an active lifestyle. You can often find me hitting the gym or going for a refreshing run to keep both my body and mind in top shape.
 - ☕ I'm a coffee enthusiast, and I have a soft spot for La Pavoni. A good cup of coffee can make any day better.
