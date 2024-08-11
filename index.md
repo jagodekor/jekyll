@@ -12,7 +12,7 @@ Hi there, I'm Daniel, and here's a bit about me:
 - 🏋️ I'm an advocate for an active lifestyle. You can often find me hitting the gym or going for a refreshing run to keep both my body and mind in shape.
 - ☕ A coffee enthusiast. A good cup of coffee can make any day better.
 - 📈 I'm also keen on analyzing companies and the stock market. It's fascinating to consider investment opportunities.
-- 🏡 [Rebecca](https://rebmdsportsnutrition.com/about/) and I host guests at [our holiday home](airbnb.com.mt/h/xlendi-sea-view) with whom we share lovely Gozo.
+- 🏡 [Rebecca](https://rebmdsportsnutrition.com/about/) and I host guests at [our holiday home](https://airbnb.com.mt/h/xlendi-sea-view) with whom we share lovely Gozo.
 
 Feel free to reach out and connect if you share any of these interests or if you simply want to chat about the exciting worlds of tech, sports, or investments. I'm always up for a good conversation!
 
