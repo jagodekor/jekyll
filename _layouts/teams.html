@@ -26,11 +26,17 @@ bodyClass: "page-teams"
             <div class="team team-summary team-summary-large">
                 {% if team.image %}
                 <div class="team-image">
-                    <img width="90" height="90" alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
+                    <img width="90" height="90" alt="{{ team.name }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
                 </div>
                 {% endif %}
                 <div class="team-meta">
-                    <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
+                    <h2 class="team-name">
+                        {% if team.personalurl %}
+                        <a href="{{ team.personalurl }}">{{ team.name }}</a>
+                        {% else %}
+                        {{team.name}}
+                        {% endif %}
+                    </h2>
                     <p class="team-description">{{ team.jobtitle }}</p>
                     {% if team.linkedinurl %}
                     <a target="_blank" href="{{ team.linkedinurl }}" rel="noreferrer">LinkedIn</a>
@@ -52,7 +58,13 @@ bodyClass: "page-teams"
                 </div>
                 {% endif %}
                 <div class="team-meta">
-                    <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
+                    <h2 class="team-name">
+                        {% if team.personalurl %}
+                        <a href="{{ team.personalurl }}">{{ team.name }}</a>
+                        {% else %}
+                        {{team.name}}
+                        {% endif %}
+                    </h2>
                     <p class="team-description">{{ team.jobtitle }}</p>
                 </div>
             </div>
