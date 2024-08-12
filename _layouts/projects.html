@@ -1,0 +1,60 @@
+---
+layout: default
+bodyClass: "page-projects"
+---
+
+<div class="intro">
+  <div class="container">
+    <div class="row justify-content-start">
+      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+        {{ content }}
+      </div>
+      {% if page.intro_image %}
+      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
+        <img alt={{ page.title }} class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relative_url }}" />
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    {% for project in site.projects %}
+    <div class="col-12 mb-3">
+      <div class="project project-summary">
+        <div class="project-content">
+          <h1 class="project-title">
+            {{project.title}}
+          </h1>
+          <div>
+            <h3>Team:</h3>
+            {% if project.team == empty %}
+            <span>  TBD</span>
+            {% else %}
+            <span>  {{project.team}}</span>
+            {% endif %}
+
+          </div>
+          <div>
+            <h3>Advisors:</h3>
+            {% if project.advisors == empty %}
+            <span>  TBD</span>
+            {% else %}
+            <span>  {{project.advisors}}</span>
+            {% endif %}
+          </div>
+          <div>
+            <h3>Status:</h3><span>  {{project.status}}</span>
+          </div>
+          <div>
+            <h3>Description:</h3>
+            <p>{{ project.excerpt | markdownify | strip_html }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+

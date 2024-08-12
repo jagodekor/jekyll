@@ -1,7 +1,7 @@
 ---
 title: Medical Device Club
 layout: home
-intro_image: "images/illustrations/pointing.svg"
+intro_image: "images/illustrations/taxi-biotechnology-research.png"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 show_call_box: false
@@ -9,4 +9,4 @@ show_call_box: false
 
 # Medical Device Club @ Vanderbilt
 
-Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+Welcome to the Medical Device Club at Vanderbilt University, part of the Internet of Medical Things (IoMT) lab.

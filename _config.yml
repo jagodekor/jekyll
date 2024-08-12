@@ -10,22 +10,18 @@ logo:
   desktop_height: "100px"
   desktop_width: "100px"
 
-home: 
-  limit_services: 6
-
 collections:
-  services:
-    output: true
-    sort_by: weight
+  projects:
+    output: false
   team:
-    output: true
+    output: false
 
 defaults:
   - scope:
       path: ""
-      type: "services"
+      type: "projects"
     values:
-      layout: "service"
+      layout: "project"
   - scope:
       path: ""
       type: "team"
