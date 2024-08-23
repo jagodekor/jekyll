@@ -2,6 +2,8 @@ baseurl: '/'
 permalink: pretty
 title: 'Medical Device Club'
 
+GOOGLE_ANALYTICS_ID: G-314DLWLHC2
+
 logo:
   mobile: "images/logo/Vanderbilt_V.png"
   mobile_height: "32px"
