@@ -12,11 +12,10 @@ logo:
   desktop_height: "100px"
   desktop_width: "100px"
 
+collections_dir: collections
 collections:
-  projects:
-    output: false
-  team:
-    output: false
+  - projects
+  - team
 
 defaults:
   - scope:
