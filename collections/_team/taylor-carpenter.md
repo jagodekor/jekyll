@@ -1,6 +1,6 @@
 ---
 name: "Taylor Carpenter"
-image: "images/team/taylor.png"
+image: "/assets/people/taylor_carpenter.png"
 jobtitle: "Director"
 linkedinurl: "https://www.linkedin.com/"
 personalurl: "https://carpen.tech"

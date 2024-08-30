@@ -1,6 +1,6 @@
 ---
 name: "James Weimer"
-image: "images/team/weimer-small.png"
+image: "/assets/people/james_weimer.png"
 jobtitle: "Executive Director"
 linkedinurl: "https://www.linkedin.com/"
 personalurl: "https://jamesweimer.net"
