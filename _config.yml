@@ -1,6 +1,6 @@
-baseurl: baseurl: "/website/"
+baseurl: baseurl: "/website"
 permalink: pretty
-title: 'Jekyll Serif'
+title: 'Clee Medical SA'
 
 logo:
   mobile: "images/logo/logo-mobile.svg"
