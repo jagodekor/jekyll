@@ -3,17 +3,17 @@
 
 // Colors
 $primary: #1f39e5;
-$primary-dark: #0e1963;
-$secondary: #f88379;
+$primary-dark: #480e99;
+$secondary: #225194;
 $black: #2f2f41;
 $white: #ffffff;
 $white-offset: #fff6f8;
 $steel: #5c5a5a;
 
 // Links
-$link-color: $primary;
+$link-color: $primary-dark;
 $link-decoration: none;
-$link-hover-color: lighten($primary, 10%);
+$link-hover-color: lighten($primary-dark, 10%);
 $link-hover-decoration: underline;
 
 // Fonts
